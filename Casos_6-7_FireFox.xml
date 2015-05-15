@@ -1,0 +1,40 @@
+<suite name="suit 1" verbose="1" parallel="tests" thread-count="2">
+
+	<test name="Caso 6 - NEGATIVO - Sin loguearse, buscar un vuelo y verificar error en el procedimiento mismo - FireFox"> -->
+		<parameter name="browser" value="FF"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="negativeTest1"></include>
+		</methods>
+	</test>
+	<test name="Caso 6 - NEGATIVO - Sin loguearse, buscar un vuelo , reservando y verificar que faltan ingresar datos - FireFox">
+		<parameter name="browser" value="FF"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="negativeTest2"></include>
+		</methods>
+	</test>
+	
+	<test name="Caso 7 - POSITIVO - Sin loguearse, buscar un vuelo - FireFox"> -->
+		<parameter name="browser" value="FF"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="positiveTest1"></include>
+		</methods>
+	</test>
+	<test name="Caso 7 - POSITIVO - Sin loguearse, buscar un vuelo , reservar y verificar pasos del mismo - FireFox">
+		<parameter name="browser" value="FF"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="positiveTest2"></include>
+		</methods>
+	</test>
+</suite>

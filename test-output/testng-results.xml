@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="8" total="11" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>Entrado a cheaptickets.com]]>
+    </line>
+    <line>
+      <![CDATA[<br>Entrado a cheaptickets.com]]>
+    </line>
+    <line>
+      <![CDATA[<br>Entrado a la seccion Login.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Entrado a la seccion Login.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Completando formulario de login.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Completando formulario de login.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Enviando formulario de login.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Comprobando que estemos logeados.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Usuario logueado]]>
+    </line>
+    <line>
+      <![CDATA[<br>Entrado a cheaptickets.com]]>
+    </line>
+    <line>
+      <![CDATA[<br>Entrado a cheaptickets.com]]>
+    </line>
+    <line>
+      <![CDATA[<br>Entrado a la seccion Login.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Completando formulario de login.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Entrado a la seccion Login.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Completando formulario de login.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Entrado a cheaptickets.com]]>
+    </line>
+    <line>
+      <![CDATA[<br>Enviando formulario de login.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Comprobando que estemos logeados.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Ya estamos logueados.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Cerrando sesion.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Seleccionando opcion de 'Flight only'.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Llenando campos de origen y destino.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Comprobando que no estamos logeados.]]>
+    </line>
+    <line>
+      <![CDATA[<br>No estamos logeados.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Entrado a cheaptickets.com]]>
+    </line>
+    <line>
+      <![CDATA[<br>Entrado a cheaptickets.com]]>
+    </line>
+    <line>
+      <![CDATA[<br>Seleccionando opcion de 'Flight only'.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Seleccionando opcion de 'Flight only'.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Por elegir los checkboxs.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Llenando campos de origen y destino.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Llenando campos de origen y destino.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Entrado a cheaptickets.com]]>
+    </line>
+    <line>
+      <![CDATA[<br>Entrado a cheaptickets.com]]>
+    </line>
+    <line>
+      <![CDATA[<br>Seleccionando opcion de 'Flight only'.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Seleccionando opcion de 'Flight only'.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Por elegir los checkboxs.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Por elegir los checkboxs.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Llenando campos de origen y destino.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Llenando campos de origen y destino.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Entrado a cheaptickets.com]]>
+    </line>
+    <line>
+      <![CDATA[<br>Entrado a cheaptickets.com]]>
+    </line>
+    <line>
+      <![CDATA[<br>Entrado a la seccion Login.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Completando formulario de login.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Enviando formulario de login.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Seleccionando opcion de 'Flight only + Hotel'.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Comprobando que estemos logeados.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Ya estamos logueados.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Seleccionando opcion de 'Flight only'.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Llenando campos de origen y destino.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Seleccionando 1 Adulto.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Calculando fechas dinamicas.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Llenando fechas dinamicas.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Enviando formulario.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Llenando campos de origen y destino.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Cargando pagina de resultados.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Buscando los 5 elementos para comprobar.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Comprobando element1.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Comprobando element2.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Comprobando element3.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Comprobando element4.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Comprobando element5.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Comprobando ...]]>
+    </line>
+    <line>
+      <![CDATA[<br>Haciendo click en Filtrado.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Eligiendo la opcion 'Earliest Departure' del filtrado.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Clickeando el primer elemento de la lista en el boton select rojo.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Buscando element1.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Buscando element2.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Buscando element3.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Buscando element4.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Buscando element5.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Comprobando si estan todos los 5 elementos ...]]>
+    </line>
+    <line>
+      <![CDATA[<br>Estan los elementos en Trip Details.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Clickeando el boton 'Continue' Parte 1.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Verificando que la informacion del veulo es correcta ...]]>
+    </line>
+    <line>
+      <![CDATA[<br>Clickeando el boton 'Continue' Parte 2.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Por buscar y completar los campos a llenar.]]>
+    </line>
+    <line>
+      <![CDATA[<br>phoneCountryCode]]>
+    </line>
+    <line>
+      <![CDATA[<br>phoneNumber]]>
+    </line>
+    <line>
+      <![CDATA[<br>gender.]]>
+    </line>
+    <line>
+      <![CDATA[<br>dateOfBirthMonth.]]>
+    </line>
+    <line>
+      <![CDATA[<br>dateOfBirthDay.]]>
+    </line>
+    <line>
+      <![CDATA[<br>dateOfBirthYear]]>
+    </line>
+    <line>
+      <![CDATA[<br>Por elegir los checkboxs.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Clickeando el boton 'Continue' Parte 3.]]>
+    </line>
+  </reporter-output>
+  <suite name="suit 1" duration-ms="405845" started-at="2015-05-15T04:29:36Z" finished-at="2015-05-15T04:36:22Z">
+    <groups>
+    </groups>
+    <test name="Caso 2 - Loguearse con usuario incorrecto y verificar el error - IExplorer" duration-ms="44619" started-at="2015-05-15T04:29:36Z" finished-at="2015-05-15T04:30:21Z">
+      <class name="federico_bechini.training.globant.com.tests.Tests">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@1d251891]" name="before" is-config="true" duration-ms="7503" started-at="2015-05-15T01:29:36Z" finished-at="2015-05-15T01:29:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="validateUserLogedFailUsername()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@1d251891]" name="validateUserLogedFailUsername" duration-ms="35670" started-at="2015-05-15T01:29:44Z" description="Loguearse con usuario incorrecto y verificar el error." finished-at="2015-05-15T01:30:19Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with name == models['userName'].userName (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 360 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Federico-CX-PC', ip: '192.168.91.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:27805/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: f62a13c4-448f-49ff-a6fe-eff88176d0bb
+*** Element info: {Using=name, value=models['userName'].userName}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with name == models['userName'].userName (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 360 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Federico-CX-PC', ip: '192.168.91.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:27805/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: f62a13c4-448f-49ff-a6fe-eff88176d0bb
+*** Element info: {Using=name, value=models['userName'].userName}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at federico_bechini.training.globant.com.tests.Tests.validateUserLogedFailUsername(Tests.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Entrado a cheaptickets.com]]>
+            </line>
+            <line>
+              <![CDATA[<br>Entrado a la seccion Login.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Completando formulario de login.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserLogedFailUsername -->
+        <test-method status="PASS" signature="after()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@1d251891]" name="after" is-config="true" duration-ms="1431" started-at="2015-05-15T01:30:19Z" finished-at="2015-05-15T01:30:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- federico_bechini.training.globant.com.tests.Tests -->
+    </test> <!-- Caso 2 - Loguearse con usuario incorrecto y verificar el error - IExplorer -->
+    <test name="Caso 1 - Loguearse y verificar que el usuario este logueado - IExplorer" duration-ms="56822" started-at="2015-05-15T04:29:36Z" finished-at="2015-05-15T04:30:33Z">
+      <class name="federico_bechini.training.globant.com.tests.Tests">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@3c5a99da]" name="before" is-config="true" duration-ms="6815" started-at="2015-05-15T01:29:36Z" finished-at="2015-05-15T01:29:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="validateUserLoged()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@3c5a99da]" name="validateUserLoged" duration-ms="48598" started-at="2015-05-15T01:29:43Z" description="Loguearse y verificar que el usuario este logueado." finished-at="2015-05-15T01:30:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Entrado a cheaptickets.com]]>
+            </line>
+            <line>
+              <![CDATA[<br>Entrado a la seccion Login.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Completando formulario de login.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Enviando formulario de login.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Comprobando que estemos logeados.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Usuario logueado]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserLoged -->
+        <test-method status="PASS" signature="after()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@3c5a99da]" name="after" is-config="true" duration-ms="1394" started-at="2015-05-15T01:30:31Z" finished-at="2015-05-15T01:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- federico_bechini.training.globant.com.tests.Tests -->
+    </test> <!-- Caso 1 - Loguearse y verificar que el usuario este logueado - IExplorer -->
+    <test name="Caso 3 - Loguearse con password incorrecto y verificar el error - IExplorer" duration-ms="39259" started-at="2015-05-15T04:30:21Z" finished-at="2015-05-15T04:31:00Z">
+      <class name="federico_bechini.training.globant.com.tests.Tests">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@3ac3fd8b]" name="before" is-config="true" duration-ms="4874" started-at="2015-05-15T01:30:21Z" finished-at="2015-05-15T01:30:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="validateUserLogedFailPassword()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@3ac3fd8b]" name="validateUserLogedFailPassword" duration-ms="33018" started-at="2015-05-15T01:30:26Z" description="Loguearse con password incorrecto y verificar el error." finished-at="2015-05-15T01:30:59Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with name == models['userName'].userName (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 335 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Federico-CX-PC', ip: '192.168.91.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:27551/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: e9b03932-7260-462b-8268-89a8cb36bbf3
+*** Element info: {Using=name, value=models['userName'].userName}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with name == models['userName'].userName (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 335 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Federico-CX-PC', ip: '192.168.91.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:27551/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: e9b03932-7260-462b-8268-89a8cb36bbf3
+*** Element info: {Using=name, value=models['userName'].userName}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at federico_bechini.training.globant.com.tests.Tests.validateUserLogedFailPassword(Tests.java:166)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Entrado a cheaptickets.com]]>
+            </line>
+            <line>
+              <![CDATA[<br>Entrado a la seccion Login.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Completando formulario de login.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserLogedFailPassword -->
+        <test-method status="PASS" signature="after()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@3ac3fd8b]" name="after" is-config="true" duration-ms="1362" started-at="2015-05-15T01:30:59Z" finished-at="2015-05-15T01:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- federico_bechini.training.globant.com.tests.Tests -->
+    </test> <!-- Caso 3 - Loguearse con password incorrecto y verificar el error - IExplorer -->
+    <test name="Caso 5 - Sin loguearse, buscar un vuelo y verificar pasos del mismo - IExplorer" duration-ms="32736" started-at="2015-05-15T04:31:00Z" finished-at="2015-05-15T04:31:33Z">
+      <class name="federico_bechini.training.globant.com.tests.Tests">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@511baa65]" name="before" is-config="true" duration-ms="4583" started-at="2015-05-15T01:31:00Z" finished-at="2015-05-15T01:31:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="validateSearchSteps()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@511baa65]" name="validateSearchSteps" duration-ms="26711" started-at="2015-05-15T01:31:05Z" description="Sin loguearse, buscar un vuelo y verificar pasos del mismo." finished-at="2015-05-15T01:31:31Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with name == ar.rt.leaveSlice.orig.key (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 366 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Federico-CX-PC', ip: '192.168.91.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:28007/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 6304fadb-fa76-4088-a213-9febb7bdab4c
+*** Element info: {Using=name, value=ar.rt.leaveSlice.orig.key}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with name == ar.rt.leaveSlice.orig.key (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 366 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Federico-CX-PC', ip: '192.168.91.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:28007/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 6304fadb-fa76-4088-a213-9febb7bdab4c
+*** Element info: {Using=name, value=ar.rt.leaveSlice.orig.key}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at federico_bechini.training.globant.com.tests.Tests.searchAndSteps(Tests.java:716)
+	at federico_bechini.training.globant.com.tests.Tests.validateSearchSteps(Tests.java:247)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Entrado a cheaptickets.com]]>
+            </line>
+            <line>
+              <![CDATA[<br>Seleccionando opcion de 'Flight only'.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Llenando campos de origen y destino.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSearchSteps -->
+        <test-method status="PASS" signature="after()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@511baa65]" name="after" is-config="true" duration-ms="1438" started-at="2015-05-15T01:31:31Z" finished-at="2015-05-15T01:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- federico_bechini.training.globant.com.tests.Tests -->
+    </test> <!-- Caso 5 - Sin loguearse, buscar un vuelo y verificar pasos del mismo - IExplorer -->
+    <test name="Caso 4 - Hacer logout y verificar que no estamos logueados - IExplorer" duration-ms="64215" started-at="2015-05-15T04:30:33Z" finished-at="2015-05-15T04:31:37Z">
+      <class name="federico_bechini.training.globant.com.tests.Tests">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@34ce8af7]" name="before" is-config="true" duration-ms="4593" started-at="2015-05-15T01:30:33Z" finished-at="2015-05-15T01:30:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="validateLogout()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@34ce8af7]" name="validateLogout" duration-ms="58228" started-at="2015-05-15T01:30:38Z" description="Ya estando logeados, cerrar sesion y verificar que no estamos logueados." finished-at="2015-05-15T01:31:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Entrado a cheaptickets.com]]>
+            </line>
+            <line>
+              <![CDATA[<br>Entrado a la seccion Login.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Completando formulario de login.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Enviando formulario de login.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Comprobando que estemos logeados.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Ya estamos logueados.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Cerrando sesion.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Comprobando que no estamos logeados.]]>
+            </line>
+            <line>
+              <![CDATA[<br>No estamos logeados.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateLogout -->
+        <test-method status="PASS" signature="after()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@34ce8af7]" name="after" is-config="true" duration-ms="1394" started-at="2015-05-15T01:31:36Z" finished-at="2015-05-15T01:31:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- federico_bechini.training.globant.com.tests.Tests -->
+    </test> <!-- Caso 4 - Hacer logout y verificar que no estamos logueados - IExplorer -->
+    <test name="Caso 6 - NEGATIVO - Sin loguearse, buscar un vuelo , reservando y verificar que faltan ingresar datos - IExplorer" duration-ms="35139" started-at="2015-05-15T04:31:37Z" finished-at="2015-05-15T04:32:12Z">
+      <class name="federico_bechini.training.globant.com.tests.Tests">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@2d6e8792]" name="before" is-config="true" duration-ms="4660" started-at="2015-05-15T01:31:37Z" finished-at="2015-05-15T01:31:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="negativeTest2()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@2d6e8792]" name="negativeTest2" duration-ms="29114" started-at="2015-05-15T01:31:42Z" description="Sin loguearse, buscar un vuelo , reservando y verificar que faltan ingresar datos." finished-at="2015-05-15T01:32:11Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with name == ar.ow.leaveSlice.orig.key (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 312 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Federico-CX-PC', ip: '192.168.91.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:39140/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 5ebd8029-66e5-4856-81b6-049cd553f6e5
+*** Element info: {Using=name, value=ar.ow.leaveSlice.orig.key}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with name == ar.ow.leaveSlice.orig.key (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 312 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Federico-CX-PC', ip: '192.168.91.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:39140/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 5ebd8029-66e5-4856-81b6-049cd553f6e5
+*** Element info: {Using=name, value=ar.ow.leaveSlice.orig.key}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at federico_bechini.training.globant.com.tests.Tests.search(Tests.java:876)
+	at federico_bechini.training.globant.com.tests.Tests.negativeTest2(Tests.java:304)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Entrado a cheaptickets.com]]>
+            </line>
+            <line>
+              <![CDATA[<br>Seleccionando opcion de 'Flight only'.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Por elegir los checkboxs.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Llenando campos de origen y destino.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negativeTest2 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@2d6e8792]" name="after" is-config="true" duration-ms="1362" started-at="2015-05-15T01:32:11Z" finished-at="2015-05-15T01:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- federico_bechini.training.globant.com.tests.Tests -->
+    </test> <!-- Caso 6 - NEGATIVO - Sin loguearse, buscar un vuelo , reservando y verificar que faltan ingresar datos - IExplorer -->
+    <test name="Caso 6 - NEGATIVO - Sin loguearse, buscar un vuelo y verificar error en el procedimiento mismo - IExplorer" duration-ms="39692" started-at="2015-05-15T04:31:33Z" finished-at="2015-05-15T04:32:13Z">
+      <class name="federico_bechini.training.globant.com.tests.Tests">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@7e0ea639]" name="before" is-config="true" duration-ms="4626" started-at="2015-05-15T01:31:33Z" finished-at="2015-05-15T01:31:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="negativeTest1()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@7e0ea639]" name="negativeTest1" duration-ms="33682" started-at="2015-05-15T01:31:38Z" description="Sin loguearse, buscar un vuelo y verificar error en el procedimiento mismo." finished-at="2015-05-15T01:32:11Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with name == ar.ow.leaveSlice.orig.key (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 355 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Federico-CX-PC', ip: '192.168.91.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:15930/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 063f2e65-665d-4b07-b26d-dcc807bd5fd5
+*** Element info: {Using=name, value=ar.ow.leaveSlice.orig.key}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with name == ar.ow.leaveSlice.orig.key (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 355 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Federico-CX-PC', ip: '192.168.91.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:15930/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 063f2e65-665d-4b07-b26d-dcc807bd5fd5
+*** Element info: {Using=name, value=ar.ow.leaveSlice.orig.key}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at federico_bechini.training.globant.com.tests.Tests.negativeTest1(Tests.java:267)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Entrado a cheaptickets.com]]>
+            </line>
+            <line>
+              <![CDATA[<br>Seleccionando opcion de 'Flight only'.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Llenando campos de origen y destino.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negativeTest1 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@7e0ea639]" name="after" is-config="true" duration-ms="1380" started-at="2015-05-15T01:32:11Z" finished-at="2015-05-15T01:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- federico_bechini.training.globant.com.tests.Tests -->
+    </test> <!-- Caso 6 - NEGATIVO - Sin loguearse, buscar un vuelo y verificar error en el procedimiento mismo - IExplorer -->
+    <test name="Caso 7 - POSITIVO - Sin loguearse, buscar un vuelo , reservar y verificar pasos del mismo - IExplorer" duration-ms="35605" started-at="2015-05-15T04:32:13Z" finished-at="2015-05-15T04:32:48Z">
+      <class name="federico_bechini.training.globant.com.tests.Tests">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@566776ad]" name="before" is-config="true" duration-ms="5732" started-at="2015-05-15T01:32:13Z" finished-at="2015-05-15T01:32:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="positiveTest2()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@566776ad]" name="positiveTest2" duration-ms="28483" started-at="2015-05-15T01:32:18Z" description="Sin loguearse, buscar un vuelo y verificar pasos del mismo." finished-at="2015-05-15T01:32:47Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with name == ar.ow.leaveSlice.orig.key (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 322 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Federico-CX-PC', ip: '192.168.91.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:33517/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 9e34cabc-35cb-4848-9e8f-a2b4577107c1
+*** Element info: {Using=name, value=ar.ow.leaveSlice.orig.key}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with name == ar.ow.leaveSlice.orig.key (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 322 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Federico-CX-PC', ip: '192.168.91.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:33517/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 9e34cabc-35cb-4848-9e8f-a2b4577107c1
+*** Element info: {Using=name, value=ar.ow.leaveSlice.orig.key}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at federico_bechini.training.globant.com.tests.Tests.search(Tests.java:876)
+	at federico_bechini.training.globant.com.tests.Tests.positiveTest2(Tests.java:448)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Entrado a cheaptickets.com]]>
+            </line>
+            <line>
+              <![CDATA[<br>Seleccionando opcion de 'Flight only'.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Por elegir los checkboxs.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Llenando campos de origen y destino.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- positiveTest2 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@566776ad]" name="after" is-config="true" duration-ms="1386" started-at="2015-05-15T01:32:47Z" finished-at="2015-05-15T01:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- federico_bechini.training.globant.com.tests.Tests -->
+    </test> <!-- Caso 7 - POSITIVO - Sin loguearse, buscar un vuelo , reservar y verificar pasos del mismo - IExplorer -->
+    <test name="Caso 7 - POSITIVO - Sin loguearse, buscar un vuelo - IExplorer" duration-ms="37106" started-at="2015-05-15T04:32:12Z" finished-at="2015-05-15T04:32:49Z">
+      <class name="federico_bechini.training.globant.com.tests.Tests">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@4411d970]" name="before" is-config="true" duration-ms="5467" started-at="2015-05-15T01:32:12Z" finished-at="2015-05-15T01:32:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="positiveTest1()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@4411d970]" name="positiveTest1" duration-ms="30276" started-at="2015-05-15T01:32:18Z" description="Sin loguearse, buscar un vuelo." finished-at="2015-05-15T01:32:48Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with name == ar.ow.leaveSlice.orig.key (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 308 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Federico-CX-PC', ip: '192.168.91.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:5766/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: d9d5394d-b414-4933-ae5d-001356d6b6dd
+*** Element info: {Using=name, value=ar.ow.leaveSlice.orig.key}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with name == ar.ow.leaveSlice.orig.key (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 308 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Federico-CX-PC', ip: '192.168.91.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:5766/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: d9d5394d-b414-4933-ae5d-001356d6b6dd
+*** Element info: {Using=name, value=ar.ow.leaveSlice.orig.key}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at federico_bechini.training.globant.com.tests.Tests.positiveTest1(Tests.java:406)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Entrado a cheaptickets.com]]>
+            </line>
+            <line>
+              <![CDATA[<br>Seleccionando opcion de 'Flight only'.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Por elegir los checkboxs.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Llenando campos de origen y destino.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- positiveTest1 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@4411d970]" name="after" is-config="true" duration-ms="1355" started-at="2015-05-15T01:32:48Z" finished-at="2015-05-15T01:32:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- federico_bechini.training.globant.com.tests.Tests -->
+    </test> <!-- Caso 7 - POSITIVO - Sin loguearse, buscar un vuelo - IExplorer -->
+    <test name="Caso 9 - Sin loguearse, buscar un vuelo + hotel y verificar pasos del mismo - IExplorer" duration-ms="58942" started-at="2015-05-15T04:32:50Z" finished-at="2015-05-15T04:33:48Z">
+      <class name="federico_bechini.training.globant.com.tests.Tests">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@668bc3d5]" name="before" is-config="true" duration-ms="5002" started-at="2015-05-15T01:32:50Z" finished-at="2015-05-15T01:32:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="vaidateSearchHotelSteps()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@668bc3d5]" name="vaidateSearchHotelSteps" duration-ms="52581" started-at="2015-05-15T01:32:55Z" description="Sin loguearse, buscar un vuelo + hotel y verificar pasos del mismo." finished-at="2015-05-15T01:33:47Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with name == aph.leaveSlice.orig.key (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 336 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Federico-CX-PC', ip: '192.168.91.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:21762/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 89b260bd-1aed-4069-b345-c090af1267ef
+*** Element info: {Using=name, value=aph.leaveSlice.orig.key}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with name == aph.leaveSlice.orig.key (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 336 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Federico-CX-PC', ip: '192.168.91.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:21762/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 89b260bd-1aed-4069-b345-c090af1267ef
+*** Element info: {Using=name, value=aph.leaveSlice.orig.key}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at federico_bechini.training.globant.com.tests.Tests.vaidateSearchHotelSteps(Tests.java:601)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Entrado a cheaptickets.com]]>
+            </line>
+            <line>
+              <![CDATA[<br>Seleccionando opcion de 'Flight only + Hotel'.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Llenando campos de origen y destino.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- vaidateSearchHotelSteps -->
+        <test-method status="PASS" signature="after()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@668bc3d5]" name="after" is-config="true" duration-ms="1359" started-at="2015-05-15T01:33:47Z" finished-at="2015-05-15T01:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- federico_bechini.training.globant.com.tests.Tests -->
+    </test> <!-- Caso 9 - Sin loguearse, buscar un vuelo + hotel y verificar pasos del mismo - IExplorer -->
+    <test name="Caso 8 - Estando logueado, buscar un vuelo y verificar pasos del mismo - IExplorer" duration-ms="213652" started-at="2015-05-15T04:32:48Z" finished-at="2015-05-15T04:36:22Z">
+      <class name="federico_bechini.training.globant.com.tests.Tests">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@6aaa5eb0]" name="before" is-config="true" duration-ms="5063" started-at="2015-05-15T01:32:48Z" finished-at="2015-05-15T01:32:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="validateSearchStepsLogedIn()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@6aaa5eb0]" name="validateSearchStepsLogedIn" duration-ms="207179" started-at="2015-05-15T01:32:53Z" description="Estando logueado, buscar un vuelo y verificar pasos del mismo." finished-at="2015-05-15T01:36:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Entrado a cheaptickets.com]]>
+            </line>
+            <line>
+              <![CDATA[<br>Entrado a la seccion Login.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Completando formulario de login.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Enviando formulario de login.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Comprobando que estemos logeados.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Ya estamos logueados.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Seleccionando opcion de 'Flight only'.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Llenando campos de origen y destino.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Seleccionando 1 Adulto.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Calculando fechas dinamicas.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Llenando fechas dinamicas.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Enviando formulario.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Cargando pagina de resultados.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Buscando los 5 elementos para comprobar.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Comprobando element1.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Comprobando element2.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Comprobando element3.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Comprobando element4.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Comprobando element5.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Comprobando ...]]>
+            </line>
+            <line>
+              <![CDATA[<br>Haciendo click en Filtrado.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Eligiendo la opcion 'Earliest Departure' del filtrado.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Clickeando el primer elemento de la lista en el boton select rojo.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Buscando element1.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Buscando element2.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Buscando element3.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Buscando element4.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Buscando element5.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Comprobando si estan todos los 5 elementos ...]]>
+            </line>
+            <line>
+              <![CDATA[<br>Estan los elementos en Trip Details.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Clickeando el boton 'Continue' Parte 1.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Verificando que la informacion del veulo es correcta ...]]>
+            </line>
+            <line>
+              <![CDATA[<br>Clickeando el boton 'Continue' Parte 2.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Por buscar y completar los campos a llenar.]]>
+            </line>
+            <line>
+              <![CDATA[<br>phoneCountryCode]]>
+            </line>
+            <line>
+              <![CDATA[<br>phoneNumber]]>
+            </line>
+            <line>
+              <![CDATA[<br>gender.]]>
+            </line>
+            <line>
+              <![CDATA[<br>dateOfBirthMonth.]]>
+            </line>
+            <line>
+              <![CDATA[<br>dateOfBirthDay.]]>
+            </line>
+            <line>
+              <![CDATA[<br>dateOfBirthYear]]>
+            </line>
+            <line>
+              <![CDATA[<br>Por elegir los checkboxs.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Clickeando el boton 'Continue' Parte 3.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSearchStepsLogedIn -->
+        <test-method status="PASS" signature="after()[pri:0, instance:federico_bechini.training.globant.com.tests.Tests@6aaa5eb0]" name="after" is-config="true" duration-ms="1395" started-at="2015-05-15T01:36:20Z" finished-at="2015-05-15T01:36:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- federico_bechini.training.globant.com.tests.Tests -->
+    </test> <!-- Caso 8 - Estando logueado, buscar un vuelo y verificar pasos del mismo - IExplorer -->
+  </suite> <!-- suit 1 -->
+</testng-results>

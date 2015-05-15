@@ -1,0 +1,103 @@
+<suite name="suit 1" verbose="1" parallel="tests" thread-count="2">
+
+	<test name="Caso 1 - Loguearse y verificar que el usuario este logueado - IExplorer">
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="validateUserLoged"></include>
+		</methods>
+	</test>
+	<test name="Caso 2 - Loguearse con usuario incorrecto y verificar el error - IExplorer">
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="validateUserLogedFailUsername"></include>
+		</methods>
+	</test>
+	<test name="Caso 3 - Loguearse con password incorrecto y verificar el error - IExplorer">
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="validateUserLogedFailPassword"></include>
+		</methods>
+	</test>
+	<test name="Caso 4 - Hacer logout y verificar que no estamos logueados - IExplorer">
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="validateLogout"></include>
+		</methods>
+	</test>
+		<test name="Caso 5 - Sin loguearse, buscar un vuelo y verificar pasos del mismo - IExplorer"> -->
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="validateSearchSteps"></include>
+		</methods>
+	</test>
+	 	<test name="Caso 6 - NEGATIVO - Sin loguearse, buscar un vuelo y verificar error en el procedimiento mismo - IExplorer"> -->
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="negativeTest1"></include>
+		</methods>
+	</test>
+	<test name="Caso 6 - NEGATIVO - Sin loguearse, buscar un vuelo , reservando y verificar que faltan ingresar datos - IExplorer">
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="negativeTest2"></include>
+		</methods>
+	</test> 
+	
+	<test name="Caso 7 - POSITIVO - Sin loguearse, buscar un vuelo - IExplorer"> -->
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="positiveTest1"></include>
+		</methods>
+	</test>
+	<test name="Caso 7 - POSITIVO - Sin loguearse, buscar un vuelo , reservar y verificar pasos del mismo - IExplorer">
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="positiveTest2"></include>
+		</methods>
+	</test>
+	<test name="Caso 8 - Estando logueado, buscar un vuelo y verificar pasos del mismo - IExplorer"> -->
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="validateSearchStepsLogedIn"></include>
+		</methods>
+	</test>
+	<test name="Caso 9 - Sin loguearse, buscar un vuelo + hotel y verificar pasos del mismo - IExplorer"> -->
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="vaidateSearchHotelSteps"></include>
+		</methods>
+	</test>
+</suite>

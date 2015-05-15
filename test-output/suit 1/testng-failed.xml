@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [suit 1]" parallel="tests">
+  <parameter name="browser" value="IE"/>
+  <test name="Caso 2 - Loguearse con usuario incorrecto y verificar el error - IExplorer(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="federico_bechini.training.globant.com.tests.Tests">
+        <methods>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="validateUserLogedFailUsername"/>
+        </methods>
+      </class> <!-- federico_bechini.training.globant.com.tests.Tests -->
+    </classes>
+  </test> <!-- Caso 2 - Loguearse con usuario incorrecto y verificar el error - IExplorer(failed) -->
+  <test name="Caso 3 - Loguearse con password incorrecto y verificar el error - IExplorer(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="federico_bechini.training.globant.com.tests.Tests">
+        <methods>
+          <include name="validateUserLogedFailPassword"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- federico_bechini.training.globant.com.tests.Tests -->
+    </classes>
+  </test> <!-- Caso 3 - Loguearse con password incorrecto y verificar el error - IExplorer(failed) -->
+  <test name="Caso 5 - Sin loguearse, buscar un vuelo y verificar pasos del mismo - IExplorer(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="federico_bechini.training.globant.com.tests.Tests">
+        <methods>
+          <include name="validateSearchSteps"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- federico_bechini.training.globant.com.tests.Tests -->
+    </classes>
+  </test> <!-- Caso 5 - Sin loguearse, buscar un vuelo y verificar pasos del mismo - IExplorer(failed) -->
+  <test name="Caso 6 - NEGATIVO - Sin loguearse, buscar un vuelo , reservando y verificar que faltan ingresar datos - IExplorer(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="federico_bechini.training.globant.com.tests.Tests">
+        <methods>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="negativeTest2"/>
+        </methods>
+      </class> <!-- federico_bechini.training.globant.com.tests.Tests -->
+    </classes>
+  </test> <!-- Caso 6 - NEGATIVO - Sin loguearse, buscar un vuelo , reservando y verificar que faltan ingresar datos - IExplorer(failed) -->
+  <test name="Caso 6 - NEGATIVO - Sin loguearse, buscar un vuelo y verificar error en el procedimiento mismo - IExplorer(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="federico_bechini.training.globant.com.tests.Tests">
+        <methods>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="negativeTest1"/>
+        </methods>
+      </class> <!-- federico_bechini.training.globant.com.tests.Tests -->
+    </classes>
+  </test> <!-- Caso 6 - NEGATIVO - Sin loguearse, buscar un vuelo y verificar error en el procedimiento mismo - IExplorer(failed) -->
+  <test name="Caso 7 - POSITIVO - Sin loguearse, buscar un vuelo , reservar y verificar pasos del mismo - IExplorer(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="federico_bechini.training.globant.com.tests.Tests">
+        <methods>
+          <include name="positiveTest2"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- federico_bechini.training.globant.com.tests.Tests -->
+    </classes>
+  </test> <!-- Caso 7 - POSITIVO - Sin loguearse, buscar un vuelo , reservar y verificar pasos del mismo - IExplorer(failed) -->
+  <test name="Caso 7 - POSITIVO - Sin loguearse, buscar un vuelo - IExplorer(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="federico_bechini.training.globant.com.tests.Tests">
+        <methods>
+          <include name="positiveTest1"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- federico_bechini.training.globant.com.tests.Tests -->
+    </classes>
+  </test> <!-- Caso 7 - POSITIVO - Sin loguearse, buscar un vuelo - IExplorer(failed) -->
+  <test name="Caso 9 - Sin loguearse, buscar un vuelo + hotel y verificar pasos del mismo - IExplorer(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="federico_bechini.training.globant.com.tests.Tests">
+        <methods>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="vaidateSearchHotelSteps"/>
+        </methods>
+      </class> <!-- federico_bechini.training.globant.com.tests.Tests -->
+    </classes>
+  </test> <!-- Caso 9 - Sin loguearse, buscar un vuelo + hotel y verificar pasos del mismo - IExplorer(failed) -->
+</suite> <!-- Failed suite [suit 1] -->

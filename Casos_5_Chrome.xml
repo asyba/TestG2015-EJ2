@@ -1,0 +1,12 @@
+<suite name="suit 1" verbose="1" parallel="tests" thread-count="2">
+
+	<test name="Caso 5 - Sin loguearse, buscar un vuelo y verificar pasos del mismo - Chrome"> -->
+		<parameter name="browser" value="CH"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="validateSearchSteps"></include>
+		</methods>
+	</test>
+</suite>

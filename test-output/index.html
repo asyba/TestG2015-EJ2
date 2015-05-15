@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-suit_1">
+              <span class="suite-name border-failed">suit 1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-suit_1">
+                    <span>D:\workspaceEclipeLuna\federico_bechini2\Todos_Casos_IE.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-suit_1">
+                    <span class="test-stats">11 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-suit_1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-suit_1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-suit_1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-suit_1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-suit_1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods, 8 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-suit_1" class="hide-methods failed suite-suit_1"> (hide)</a> <!-- hide-methods failed suite-suit_1 -->
+                      <a href="#" panel-name="suite-suit_1" class="show-methods failed suite-suit_1"> (show)</a> <!-- show-methods failed suite-suit_1 -->
+                    </span>
+                    <div class="method-list-content failed suite-suit_1">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suit_1" title="federico_bechini.training.globant.com.tests.Tests" hash-for-method="negativeTest1">negativeTest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suit_1" title="federico_bechini.training.globant.com.tests.Tests" hash-for-method="negativeTest2">negativeTest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suit_1" title="federico_bechini.training.globant.com.tests.Tests" hash-for-method="positiveTest1">positiveTest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suit_1" title="federico_bechini.training.globant.com.tests.Tests" hash-for-method="positiveTest2">positiveTest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suit_1" title="federico_bechini.training.globant.com.tests.Tests" hash-for-method="vaidateSearchHotelSteps">vaidateSearchHotelSteps</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suit_1" title="federico_bechini.training.globant.com.tests.Tests" hash-for-method="validateSearchSteps">validateSearchSteps</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suit_1" title="federico_bechini.training.globant.com.tests.Tests" hash-for-method="validateUserLogedFailPassword">validateUserLogedFailPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suit_1" title="federico_bechini.training.globant.com.tests.Tests" hash-for-method="validateUserLogedFailUsername">validateUserLogedFailUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-suit_1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-suit_1" class="hide-methods passed suite-suit_1"> (hide)</a> <!-- hide-methods passed suite-suit_1 -->
+                      <a href="#" panel-name="suite-suit_1" class="show-methods passed suite-suit_1"> (show)</a> <!-- show-methods passed suite-suit_1 -->
+                    </span>
+                    <div class="method-list-content passed suite-suit_1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suit_1" title="federico_bechini.training.globant.com.tests.Tests" hash-for-method="validateLogout">validateLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suit_1" title="federico_bechini.training.globant.com.tests.Tests" hash-for-method="validateSearchStepsLogedIn">validateSearchStepsLogedIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suit_1" title="federico_bechini.training.globant.com.tests.Tests" hash-for-method="validateUserLoged">validateUserLoged</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-suit_1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-suit_1" class="panel suit_1">
+          <div class="suite-suit_1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">federico_bechini.training.globant.com.tests.Tests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeTest1">
+                  </a> <!-- negativeTest1 -->
+                  <span class="method-name">negativeTest1</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with name == ar.ow.leaveSlice.orig.key (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 355 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Federico-CX-PC&apos;, ip: &apos;192.168.91.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:15930/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 063f2e65-665d-4b07-b26d-dcc807bd5fd5
+*** Element info: {Using=name, value=ar.ow.leaveSlice.orig.key}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at federico_bechini.training.globant.com.tests.Tests.negativeTest1(Tests.java:267)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Sin loguearse, buscar un vuelo y verificar error en el procedimiento mismo.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeTest2">
+                  </a> <!-- negativeTest2 -->
+                  <span class="method-name">negativeTest2</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with name == ar.ow.leaveSlice.orig.key (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 312 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Federico-CX-PC&apos;, ip: &apos;192.168.91.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:39140/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 5ebd8029-66e5-4856-81b6-049cd553f6e5
+*** Element info: {Using=name, value=ar.ow.leaveSlice.orig.key}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at federico_bechini.training.globant.com.tests.Tests.search(Tests.java:876)
+	at federico_bechini.training.globant.com.tests.Tests.negativeTest2(Tests.java:304)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Sin loguearse, buscar un vuelo , reservando y verificar que faltan ingresar datos.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveTest1">
+                  </a> <!-- positiveTest1 -->
+                  <span class="method-name">positiveTest1</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with name == ar.ow.leaveSlice.orig.key (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 308 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Federico-CX-PC&apos;, ip: &apos;192.168.91.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:5766/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: d9d5394d-b414-4933-ae5d-001356d6b6dd
+*** Element info: {Using=name, value=ar.ow.leaveSlice.orig.key}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at federico_bechini.training.globant.com.tests.Tests.positiveTest1(Tests.java:406)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Sin loguearse, buscar un vuelo.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveTest2">
+                  </a> <!-- positiveTest2 -->
+                  <span class="method-name">positiveTest2</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with name == ar.ow.leaveSlice.orig.key (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 322 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Federico-CX-PC&apos;, ip: &apos;192.168.91.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:33517/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 9e34cabc-35cb-4848-9e8f-a2b4577107c1
+*** Element info: {Using=name, value=ar.ow.leaveSlice.orig.key}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at federico_bechini.training.globant.com.tests.Tests.search(Tests.java:876)
+	at federico_bechini.training.globant.com.tests.Tests.positiveTest2(Tests.java:448)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Sin loguearse, buscar un vuelo y verificar pasos del mismo.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="vaidateSearchHotelSteps">
+                  </a> <!-- vaidateSearchHotelSteps -->
+                  <span class="method-name">vaidateSearchHotelSteps</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with name == aph.leaveSlice.orig.key (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 336 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Federico-CX-PC&apos;, ip: &apos;192.168.91.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:21762/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 89b260bd-1aed-4069-b345-c090af1267ef
+*** Element info: {Using=name, value=aph.leaveSlice.orig.key}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at federico_bechini.training.globant.com.tests.Tests.vaidateSearchHotelSteps(Tests.java:601)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Sin loguearse, buscar un vuelo + hotel y verificar pasos del mismo.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSearchSteps">
+                  </a> <!-- validateSearchSteps -->
+                  <span class="method-name">validateSearchSteps</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with name == ar.rt.leaveSlice.orig.key (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 366 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Federico-CX-PC&apos;, ip: &apos;192.168.91.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:28007/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 6304fadb-fa76-4088-a213-9febb7bdab4c
+*** Element info: {Using=name, value=ar.rt.leaveSlice.orig.key}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at federico_bechini.training.globant.com.tests.Tests.searchAndSteps(Tests.java:716)
+	at federico_bechini.training.globant.com.tests.Tests.validateSearchSteps(Tests.java:247)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Sin loguearse, buscar un vuelo y verificar pasos del mismo.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserLogedFailPassword">
+                  </a> <!-- validateUserLogedFailPassword -->
+                  <span class="method-name">validateUserLogedFailPassword</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with name == models[&apos;userName&apos;].userName (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 335 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Federico-CX-PC&apos;, ip: &apos;192.168.91.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:27551/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: e9b03932-7260-462b-8268-89a8cb36bbf3
+*** Element info: {Using=name, value=models[&apos;userName&apos;].userName}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at federico_bechini.training.globant.com.tests.Tests.validateUserLogedFailPassword(Tests.java:166)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Loguearse con password incorrecto y verificar el error.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserLogedFailUsername">
+                  </a> <!-- validateUserLogedFailUsername -->
+                  <span class="method-name">validateUserLogedFailUsername</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with name == models[&apos;userName&apos;].userName (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 360 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Federico-CX-PC&apos;, ip: &apos;192.168.91.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=true, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:27805/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: f62a13c4-448f-49ff-a6fe-eff88176d0bb
+*** Element info: {Using=name, value=models[&apos;userName&apos;].userName}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at federico_bechini.training.globant.com.tests.Tests.validateUserLogedFailUsername(Tests.java:129)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Loguearse con usuario incorrecto y verificar el error.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-suit_1-class-failed -->
+          <div class="suite-suit_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">federico_bechini.training.globant.com.tests.Tests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLogout">
+                  </a> <!-- validateLogout -->
+                  <span class="method-name">validateLogout</span>
+                  <em>
+(Ya estando logeados, cerrar sesion y verificar que no estamos logueados.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSearchStepsLogedIn">
+                  </a> <!-- validateSearchStepsLogedIn -->
+                  <span class="method-name">validateSearchStepsLogedIn</span>
+                  <em>
+(Estando logueado, buscar un vuelo y verificar pasos del mismo.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserLoged">
+                  </a> <!-- validateUserLoged -->
+                  <span class="method-name">validateUserLoged</span>
+                  <em>
+(Loguearse y verificar que el usuario este logueado.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-suit_1-class-passed -->
+        </div> <!-- panel suit_1 -->
+        <div panel-name="test-xml-suit_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\workspaceEclipeLuna\federico_bechini2\Todos_Casos_IE.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; name=&quot;suit 1&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;Caso 1 - Loguearse y verificar que el usuario este logueado - IExplorer&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;IE&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;federico_bechini.training.globant.com.tests.Tests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;validateUserLoged&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- federico_bechini.training.globant.com.tests.Tests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Caso 1 - Loguearse y verificar que el usuario este logueado - IExplorer --&gt;
+  &lt;test name=&quot;Caso 2 - Loguearse con usuario incorrecto y verificar el error - IExplorer&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;IE&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;federico_bechini.training.globant.com.tests.Tests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;validateUserLogedFailUsername&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- federico_bechini.training.globant.com.tests.Tests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Caso 2 - Loguearse con usuario incorrecto y verificar el error - IExplorer --&gt;
+  &lt;test name=&quot;Caso 3 - Loguearse con password incorrecto y verificar el error - IExplorer&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;IE&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;federico_bechini.training.globant.com.tests.Tests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;validateUserLogedFailPassword&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- federico_bechini.training.globant.com.tests.Tests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Caso 3 - Loguearse con password incorrecto y verificar el error - IExplorer --&gt;
+  &lt;test name=&quot;Caso 4 - Hacer logout y verificar que no estamos logueados - IExplorer&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;IE&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;federico_bechini.training.globant.com.tests.Tests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;validateLogout&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- federico_bechini.training.globant.com.tests.Tests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Caso 4 - Hacer logout y verificar que no estamos logueados - IExplorer --&gt;
+  &lt;test name=&quot;Caso 5 - Sin loguearse, buscar un vuelo y verificar pasos del mismo - IExplorer&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;IE&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;federico_bechini.training.globant.com.tests.Tests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;validateSearchSteps&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- federico_bechini.training.globant.com.tests.Tests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Caso 5 - Sin loguearse, buscar un vuelo y verificar pasos del mismo - IExplorer --&gt;
+  &lt;test name=&quot;Caso 6 - NEGATIVO - Sin loguearse, buscar un vuelo y verificar error en el procedimiento mismo - IExplorer&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;IE&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;federico_bechini.training.globant.com.tests.Tests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;negativeTest1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- federico_bechini.training.globant.com.tests.Tests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Caso 6 - NEGATIVO - Sin loguearse, buscar un vuelo y verificar error en el procedimiento mismo - IExplorer --&gt;
+  &lt;test name=&quot;Caso 6 - NEGATIVO - Sin loguearse, buscar un vuelo , reservando y verificar que faltan ingresar datos - IExplorer&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;IE&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;federico_bechini.training.globant.com.tests.Tests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;negativeTest2&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- federico_bechini.training.globant.com.tests.Tests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Caso 6 - NEGATIVO - Sin loguearse, buscar un vuelo , reservando y verificar que faltan ingresar datos - IExplorer --&gt;
+  &lt;test name=&quot;Caso 7 - POSITIVO - Sin loguearse, buscar un vuelo - IExplorer&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;IE&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;federico_bechini.training.globant.com.tests.Tests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;positiveTest1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- federico_bechini.training.globant.com.tests.Tests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Caso 7 - POSITIVO - Sin loguearse, buscar un vuelo - IExplorer --&gt;
+  &lt;test name=&quot;Caso 7 - POSITIVO - Sin loguearse, buscar un vuelo , reservar y verificar pasos del mismo - IExplorer&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;IE&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;federico_bechini.training.globant.com.tests.Tests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;positiveTest2&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- federico_bechini.training.globant.com.tests.Tests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Caso 7 - POSITIVO - Sin loguearse, buscar un vuelo , reservar y verificar pasos del mismo - IExplorer --&gt;
+  &lt;test name=&quot;Caso 8 - Estando logueado, buscar un vuelo y verificar pasos del mismo - IExplorer&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;IE&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;federico_bechini.training.globant.com.tests.Tests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;validateSearchStepsLogedIn&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- federico_bechini.training.globant.com.tests.Tests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Caso 8 - Estando logueado, buscar un vuelo y verificar pasos del mismo - IExplorer --&gt;
+  &lt;test name=&quot;Caso 9 - Sin loguearse, buscar un vuelo + hotel y verificar pasos del mismo - IExplorer&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;IE&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;federico_bechini.training.globant.com.tests.Tests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;vaidateSearchHotelSteps&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- federico_bechini.training.globant.com.tests.Tests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Caso 9 - Sin loguearse, buscar un vuelo + hotel y verificar pasos del mismo - IExplorer --&gt;
+&lt;/suite&gt; &lt;!-- suit 1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-suit_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for suit 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Caso 1 - Loguearse y verificar que el usuario este logueado - IExplorer (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Caso 2 - Loguearse con usuario incorrecto y verificar el error - IExplorer (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Caso 3 - Loguearse con password incorrecto y verificar el error - IExplorer (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Caso 4 - Hacer logout y verificar que no estamos logueados - IExplorer (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Caso 5 - Sin loguearse, buscar un vuelo y verificar pasos del mismo - IExplorer (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Caso 6 - NEGATIVO - Sin loguearse, buscar un vuelo y verificar error en el procedimiento mismo - IExplorer (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Caso 6 - NEGATIVO - Sin loguearse, buscar un vuelo , reservando y verificar que faltan ingresar datos - IExplorer (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Caso 7 - POSITIVO - Sin loguearse, buscar un vuelo - IExplorer (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Caso 7 - POSITIVO - Sin loguearse, buscar un vuelo , reservar y verificar pasos del mismo - IExplorer (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Caso 8 - Estando logueado, buscar un vuelo y verificar pasos del mismo - IExplorer (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Caso 9 - Sin loguearse, buscar un vuelo + hotel y verificar pasos del mismo - IExplorer (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-suit_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for suit 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-suit_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for suit 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_suit_1');
+function tableData_suit_1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateSearchStepsLogedIn')
+data.setCell(0, 2, 'federico_bechini.training.globant.com.tests.Tests')
+data.setCell(0, 3, 207179);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateLogout')
+data.setCell(1, 2, 'federico_bechini.training.globant.com.tests.Tests')
+data.setCell(1, 3, 58228);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'vaidateSearchHotelSteps')
+data.setCell(2, 2, 'federico_bechini.training.globant.com.tests.Tests')
+data.setCell(2, 3, 52581);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateUserLoged')
+data.setCell(3, 2, 'federico_bechini.training.globant.com.tests.Tests')
+data.setCell(3, 3, 48598);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateUserLogedFailUsername')
+data.setCell(4, 2, 'federico_bechini.training.globant.com.tests.Tests')
+data.setCell(4, 3, 35670);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'negativeTest1')
+data.setCell(5, 2, 'federico_bechini.training.globant.com.tests.Tests')
+data.setCell(5, 3, 33682);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateUserLogedFailPassword')
+data.setCell(6, 2, 'federico_bechini.training.globant.com.tests.Tests')
+data.setCell(6, 3, 33018);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'positiveTest1')
+data.setCell(7, 2, 'federico_bechini.training.globant.com.tests.Tests')
+data.setCell(7, 3, 30276);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'negativeTest2')
+data.setCell(8, 2, 'federico_bechini.training.globant.com.tests.Tests')
+data.setCell(8, 3, 29114);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'positiveTest2')
+data.setCell(9, 2, 'federico_bechini.training.globant.com.tests.Tests')
+data.setCell(9, 3, 28483);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateSearchSteps')
+data.setCell(10, 2, 'federico_bechini.training.globant.com.tests.Tests')
+data.setCell(10, 3, 26711);
+window.suiteTableData['suit_1']= { tableData: data, tableDiv: 'times-div-suit_1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <div id="times-div-suit_1">
+              </div> <!-- times-div-suit_1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-suit_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for suit 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateUserLogedFailUsername</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Entrado a cheaptickets.com</span>
+                <span class="reporter-method-output"><br>Entrado a la seccion Login.</span>
+                <span class="reporter-method-output"><br>Completando formulario de login.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateUserLoged</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Entrado a cheaptickets.com</span>
+                <span class="reporter-method-output"><br>Entrado a la seccion Login.</span>
+                <span class="reporter-method-output"><br>Completando formulario de login.</span>
+                <span class="reporter-method-output"><br>Enviando formulario de login.</span>
+                <span class="reporter-method-output"><br>Comprobando que estemos logeados.</span>
+                <span class="reporter-method-output"><br>Usuario logueado</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateUserLogedFailPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Entrado a cheaptickets.com</span>
+                <span class="reporter-method-output"><br>Entrado a la seccion Login.</span>
+                <span class="reporter-method-output"><br>Completando formulario de login.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateSearchSteps</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Entrado a cheaptickets.com</span>
+                <span class="reporter-method-output"><br>Seleccionando opcion de 'Flight only'.</span>
+                <span class="reporter-method-output"><br>Llenando campos de origen y destino.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateLogout</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Entrado a cheaptickets.com</span>
+                <span class="reporter-method-output"><br>Entrado a la seccion Login.</span>
+                <span class="reporter-method-output"><br>Completando formulario de login.</span>
+                <span class="reporter-method-output"><br>Enviando formulario de login.</span>
+                <span class="reporter-method-output"><br>Comprobando que estemos logeados.</span>
+                <span class="reporter-method-output"><br>Ya estamos logueados.</span>
+                <span class="reporter-method-output"><br>Cerrando sesion.</span>
+                <span class="reporter-method-output"><br>Comprobando que no estamos logeados.</span>
+                <span class="reporter-method-output"><br>No estamos logeados.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">negativeTest2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Entrado a cheaptickets.com</span>
+                <span class="reporter-method-output"><br>Seleccionando opcion de 'Flight only'.</span>
+                <span class="reporter-method-output"><br>Por elegir los checkboxs.</span>
+                <span class="reporter-method-output"><br>Llenando campos de origen y destino.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">negativeTest1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Entrado a cheaptickets.com</span>
+                <span class="reporter-method-output"><br>Seleccionando opcion de 'Flight only'.</span>
+                <span class="reporter-method-output"><br>Llenando campos de origen y destino.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">positiveTest2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Entrado a cheaptickets.com</span>
+                <span class="reporter-method-output"><br>Seleccionando opcion de 'Flight only'.</span>
+                <span class="reporter-method-output"><br>Por elegir los checkboxs.</span>
+                <span class="reporter-method-output"><br>Llenando campos de origen y destino.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">positiveTest1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Entrado a cheaptickets.com</span>
+                <span class="reporter-method-output"><br>Seleccionando opcion de 'Flight only'.</span>
+                <span class="reporter-method-output"><br>Por elegir los checkboxs.</span>
+                <span class="reporter-method-output"><br>Llenando campos de origen y destino.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">vaidateSearchHotelSteps</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Entrado a cheaptickets.com</span>
+                <span class="reporter-method-output"><br>Seleccionando opcion de 'Flight only + Hotel'.</span>
+                <span class="reporter-method-output"><br>Llenando campos de origen y destino.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateSearchStepsLogedIn</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Entrado a cheaptickets.com</span>
+                <span class="reporter-method-output"><br>Entrado a la seccion Login.</span>
+                <span class="reporter-method-output"><br>Completando formulario de login.</span>
+                <span class="reporter-method-output"><br>Enviando formulario de login.</span>
+                <span class="reporter-method-output"><br>Comprobando que estemos logeados.</span>
+                <span class="reporter-method-output"><br>Ya estamos logueados.</span>
+                <span class="reporter-method-output"><br>Seleccionando opcion de 'Flight only'.</span>
+                <span class="reporter-method-output"><br>Llenando campos de origen y destino.</span>
+                <span class="reporter-method-output"><br>Seleccionando 1 Adulto.</span>
+                <span class="reporter-method-output"><br>Calculando fechas dinamicas.</span>
+                <span class="reporter-method-output"><br>Llenando fechas dinamicas.</span>
+                <span class="reporter-method-output"><br>Enviando formulario.</span>
+                <span class="reporter-method-output"><br>Cargando pagina de resultados.</span>
+                <span class="reporter-method-output"><br>Buscando los 5 elementos para comprobar.</span>
+                <span class="reporter-method-output"><br>Comprobando element1.</span>
+                <span class="reporter-method-output"><br>Comprobando element2.</span>
+                <span class="reporter-method-output"><br>Comprobando element3.</span>
+                <span class="reporter-method-output"><br>Comprobando element4.</span>
+                <span class="reporter-method-output"><br>Comprobando element5.</span>
+                <span class="reporter-method-output"><br>Comprobando ...</span>
+                <span class="reporter-method-output"><br>Haciendo click en Filtrado.</span>
+                <span class="reporter-method-output"><br>Eligiendo la opcion 'Earliest Departure' del filtrado.</span>
+                <span class="reporter-method-output"><br>Clickeando el primer elemento de la lista en el boton select rojo.</span>
+                <span class="reporter-method-output"><br>Buscando element1.</span>
+                <span class="reporter-method-output"><br>Buscando element2.</span>
+                <span class="reporter-method-output"><br>Buscando element3.</span>
+                <span class="reporter-method-output"><br>Buscando element4.</span>
+                <span class="reporter-method-output"><br>Buscando element5.</span>
+                <span class="reporter-method-output"><br>Comprobando si estan todos los 5 elementos ...</span>
+                <span class="reporter-method-output"><br>Estan los elementos en Trip Details.</span>
+                <span class="reporter-method-output"><br>Clickeando el boton 'Continue' Parte 1.</span>
+                <span class="reporter-method-output"><br>Verificando que la informacion del veulo es correcta ...</span>
+                <span class="reporter-method-output"><br>Clickeando el boton 'Continue' Parte 2.</span>
+                <span class="reporter-method-output"><br>Por buscar y completar los campos a llenar.</span>
+                <span class="reporter-method-output"><br>phoneCountryCode</span>
+                <span class="reporter-method-output"><br>phoneNumber</span>
+                <span class="reporter-method-output"><br>gender.</span>
+                <span class="reporter-method-output"><br>dateOfBirthMonth.</span>
+                <span class="reporter-method-output"><br>dateOfBirthDay.</span>
+                <span class="reporter-method-output"><br>dateOfBirthYear</span>
+                <span class="reporter-method-output"><br>Por elegir los checkboxs.</span>
+                <span class="reporter-method-output"><br>Clickeando el boton 'Continue' Parte 3.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-suit_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">110 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">federico_bechini.training.globant.com.tests.Tests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validateUserLoged</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLoged</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLoged</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLoged</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLoged</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLoged</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLoged</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLoged</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLoged</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLoged</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest1</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest1</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest1</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest1</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest1</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest1</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest1</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest1</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest1</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest1</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest2</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest2</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest2</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest2</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest2</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest2</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest2</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest2</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest2</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest2</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLogedFailPassword</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLogedFailPassword</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLogedFailPassword</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLogedFailPassword</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLogedFailPassword</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLogedFailPassword</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLogedFailPassword</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLogedFailPassword</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLogedFailPassword</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLogedFailPassword</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLogedFailUsername</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLogedFailUsername</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLogedFailUsername</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLogedFailUsername</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLogedFailUsername</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLogedFailUsername</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLogedFailUsername</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLogedFailUsername</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLogedFailUsername</span>
+                <br/>
+                <span class="ignored-method-name">validateUserLogedFailUsername</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest2</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest2</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest2</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest2</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest2</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest2</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest2</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest2</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest2</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest2</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest1</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest1</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest1</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest1</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest1</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest1</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest1</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest1</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest1</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest1</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchSteps</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchSteps</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchSteps</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchSteps</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchSteps</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchSteps</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchSteps</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchSteps</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchSteps</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchSteps</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchStepsLogedIn</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchStepsLogedIn</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchStepsLogedIn</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchStepsLogedIn</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchStepsLogedIn</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchStepsLogedIn</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchStepsLogedIn</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchStepsLogedIn</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchStepsLogedIn</span>
+                <br/>
+                <span class="ignored-method-name">validateSearchStepsLogedIn</span>
+                <br/>
+                <span class="ignored-method-name">validateLogout</span>
+                <br/>
+                <span class="ignored-method-name">validateLogout</span>
+                <br/>
+                <span class="ignored-method-name">validateLogout</span>
+                <br/>
+                <span class="ignored-method-name">validateLogout</span>
+                <br/>
+                <span class="ignored-method-name">validateLogout</span>
+                <br/>
+                <span class="ignored-method-name">validateLogout</span>
+                <br/>
+                <span class="ignored-method-name">validateLogout</span>
+                <br/>
+                <span class="ignored-method-name">validateLogout</span>
+                <br/>
+                <span class="ignored-method-name">validateLogout</span>
+                <br/>
+                <span class="ignored-method-name">validateLogout</span>
+                <br/>
+                <span class="ignored-method-name">vaidateSearchHotelSteps</span>
+                <br/>
+                <span class="ignored-method-name">vaidateSearchHotelSteps</span>
+                <br/>
+                <span class="ignored-method-name">vaidateSearchHotelSteps</span>
+                <br/>
+                <span class="ignored-method-name">vaidateSearchHotelSteps</span>
+                <br/>
+                <span class="ignored-method-name">vaidateSearchHotelSteps</span>
+                <br/>
+                <span class="ignored-method-name">vaidateSearchHotelSteps</span>
+                <br/>
+                <span class="ignored-method-name">vaidateSearchHotelSteps</span>
+                <br/>
+                <span class="ignored-method-name">vaidateSearchHotelSteps</span>
+                <br/>
+                <span class="ignored-method-name">vaidateSearchHotelSteps</span>
+                <br/>
+                <span class="ignored-method-name">vaidateSearchHotelSteps</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-suit_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">federico_bechini.training.globant.com.tests.Tests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">before(IE)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">before(IE)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserLoged</span>
+                <span class="method-start">6815 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateUserLogedFailUsername</span>
+                <span class="method-start">7503 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">43173 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(IE)</span>
+                <span class="method-start">44729 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateUserLogedFailPassword</span>
+                <span class="method-start">49603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">55413 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(IE)</span>
+                <span class="method-start">56891 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLogout</span>
+                <span class="method-start">61484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">82626 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(IE)</span>
+                <span class="method-start">84051 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateSearchSteps</span>
+                <span class="method-start">88634 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">115349 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(IE)</span>
+                <span class="method-start">116834 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">119712 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(IE)</span>
+                <span class="method-start">121121 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">negativeTest1</span>
+                <span class="method-start">121460 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">negativeTest2</span>
+                <span class="method-start">125781 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">154898 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">155146 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(IE)</span>
+                <span class="method-start">156307 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">before(IE)</span>
+                <span class="method-start">156526 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">positiveTest1</span>
+                <span class="method-start">161774 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">positiveTest2</span>
+                <span class="method-start">162258 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">190745 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">192058 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(IE)</span>
+                <span class="method-start">192193 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">before(IE)</span>
+                <span class="method-start">193476 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateSearchStepsLogedIn</span>
+                <span class="method-start">197256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">vaidateSearchHotelSteps</span>
+                <span class="method-start">198478 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">251059 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">404435 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

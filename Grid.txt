@@ -1,0 +1,8 @@
+1 CMD
+java -jar selenium-server-standalone-2.45.0.jar -role hub -hub http:\\localhost:4445\grid\register
+
+Browser
+http:\\localhost:4444
+
+2 CMD
+java -jar selenium-server-standalone-2.45.0.jar -role node -hub http://localhost:4444/grid/register -maxSession 10 -browserbrowserName=firefox,maxInstances=5

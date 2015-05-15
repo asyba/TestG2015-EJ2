@@ -1,0 +1,39 @@
+<suite name="suit 1" verbose="1" parallel="tests" thread-count="2">
+
+	<test name="Caso 1 - Loguearse y verificar que el usuario este logueado - IExplorer">
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="validateUserLoged"></include>
+		</methods>
+	</test>
+	<test name="Caso 2 - Loguearse con usuario incorrecto y verificar el error - IExplorer">
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="validateUserLogedFailUsername"></include>
+		</methods>
+	</test>
+	<test name="Caso 3 - Loguearse con password incorrecto y verificar el error - IExplorer">
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="validateUserLogedFailPassword"></include>
+		</methods>
+	</test>
+	<test name="Caso 4 - Hacer logout y verificar que no estamos logueados - IExplorer">
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="validateLogout"></include>
+		</methods>
+	</test>
+</suite>

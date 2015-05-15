@@ -1,0 +1,21 @@
+<suite name="suit 1" verbose="1" parallel="tests" thread-count="2">
+
+	<test name="Caso 8 - Estando logueado, buscar un vuelo y verificar pasos del mismo - IExplorer"> -->
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="validateSearchStepsLogedIn"></include>
+		</methods>
+	</test>
+	<test name="Caso 9 - Sin loguearse, buscar un vuelo + hotel y verificar pasos del mismo - IExplorer"> -->
+		<parameter name="browser" value="IE"></parameter>
+		<classes>
+			<class name="federico_bechini.training.globant.com.tests.Tests"></class>
+		</classes>
+		<methods>
+			<include name="vaidateSearchHotelSteps"></include>
+		</methods>
+	</test>
+</suite>

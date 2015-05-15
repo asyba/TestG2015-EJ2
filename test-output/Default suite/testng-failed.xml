@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="federico_bechini.training.globant.com.tests.Tests">
+        <methods>
+          <include name="validateUserLoged"/>
+          <include name="validateSearchStepsLogedIn"/>
+          <include name="validateSearchSteps"/>
+          <include name="validateUserLogedFailPassword"/>
+          <include name="negativeTest2"/>
+          <include name="validateLogout"/>
+          <include name="negativeTest1"/>
+          <include name="positiveTest1"/>
+          <include name="validateUserLogedFailUsername"/>
+          <include name="vaidateSearchHotelSteps"/>
+          <include name="positiveTest2"/>
+        </methods>
+      </class> <!-- federico_bechini.training.globant.com.tests.Tests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
