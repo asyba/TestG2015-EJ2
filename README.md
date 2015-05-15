@@ -1,2 +1,5 @@
 # TestG2015-EJ2
-Testing
+Testing EJ2
+-----------
+Selenium Java Eclipse
+
